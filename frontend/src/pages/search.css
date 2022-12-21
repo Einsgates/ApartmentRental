@@ -1,0 +1,24 @@
+#datah{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(14, 94, 192);
+  }
+ 
+  
+  #search{
+    margin-top: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color:rgb(14, 94, 192);
+  }
+
+  #map{
+      display: flex;
+      height: 500px;
+      width: 80%;
+      margin-top: 10px;
+      margin-left: 150px;
+  }

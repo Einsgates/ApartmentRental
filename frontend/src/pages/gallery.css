@@ -1,0 +1,60 @@
+.Gallery {
+    text-align: center;
+}
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.apartment-item {
+    width: 400px;
+    margin: 10px;
+    text-align: left;
+    color: #333;
+    text-decoration: none;
+}
+
+.apartment-item p {
+    margin: 0;
+
+}
+.apartment-item p:last-child {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 60px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+
+}
+
+.btn {
+    margin: 0 20px;
+}
+select {
+    margin: 0 20px;
+}
+
+.detail {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.detail-img {
+    width: 600px;
+}
+
+.detail-desc {
+    width: 600px;
+}
+.detail-desc div {
+    border: 1px solid #333;
+    border-radius: 4px;
+    margin: 10px 10px;
+    padding: 5px 20px;
+}
+
